@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { motion } from 'framer-motion';
-import { FaPlay, FaGraduationCap, FaBook, FaPen, FaStar, FaChevronDown, FaCertificate, FaTrophy } from 'react-icons/fa';
+import { FaPlay, FaGraduationCap, FaBook, FaPen, FaStar, FaCertificate, FaTrophy } from 'react-icons/fa';
 import { Button, Badge, Stats } from '../ui';
 import { COLORS, GRADIENTS, SOCIAL_LINKS, APP_CONFIG } from '../../config/constants';
 import { prefersReducedMotion } from '../../utils/performance';
@@ -364,30 +364,7 @@ const AchievementCard = styled(motion.div)<{ top: string; right: string }>`
   }
 `;
 
-const ScrollIndicator = styled(motion.div)`
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  text-align: center;
-  cursor: pointer;
-  
-  p {
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    opacity: 0.8;
-  }
-  
-  svg {
-    font-size: 1.5rem;
-    animation: ${float} 2s ease-in-out infinite;
-    
-    @media (prefers-reduced-motion: reduce) {
-      animation: none;
-    }
-  }
-`;
+
 
 const HeroSection: React.FC = () => {
   const [particles, setParticles] = useState<Array<{ id: number; delay: number; size: number; left: number }>>([]);
@@ -407,12 +384,7 @@ const HeroSection: React.FC = () => {
     setParticles(particleArray);
   }, []);
 
-  const scrollToNext = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: 'smooth'
-    });
-  };
+
 
   return (
     <HeroContainer id="hero">
