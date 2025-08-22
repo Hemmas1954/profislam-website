@@ -388,7 +388,7 @@ const Footer: React.FC = () => {
             <ContactInfo>
               <ContactItem>
                 <FaWhatsapp className="icon" />
-                <span>+213 672 304 632</span>
+                <span>+213 669 703 902</span>
               </ContactItem>
               
               <ContactItem>
