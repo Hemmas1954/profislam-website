@@ -469,7 +469,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <ProfileImage src="/src/assets/images/1.png" alt="الأستاذ إسلام هماس" />
+            <ProfileImage src="/images/1.png" alt="الأستاذ إسلام هماس" />
           </ProfileImageContainer>
           
           <FloatingIcon

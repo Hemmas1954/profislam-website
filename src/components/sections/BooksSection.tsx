@@ -144,7 +144,7 @@ const BookImage = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/src/assets/images/book.jpg') center/cover;
+    background: url('/images/book.jpg') center/cover;
     border-radius: 20px;
   }
   
@@ -396,7 +396,7 @@ const BooksSection: React.FC = () => {
   const mainBook: BookProps = {
     title: "المنقذ في اللغة والأدب العربي",
     description: "دليل شامل ومتكامل يحتوي على جميع دروس اللغة العربية والأدب للباكالوريا مع شرح مفصل ومنهجية صحيحة للحصول على أفضل النتائج",
-    image: "/src/assets/images/book.jpg",
+    image: "/images/book.jpg",
     isAvailable: true,
     downloadLink: SOCIAL_LINKS.TELEGRAM
   };
