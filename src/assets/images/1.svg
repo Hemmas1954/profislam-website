@@ -1,0 +1,46 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="140" fill="url(#gradient1)" stroke="url(#gradient2)" stroke-width="4"/>
+  
+  <!-- Profile Silhouette -->
+  <circle cx="150" cy="120" r="35" fill="#2D3748"/>
+  <path d="M150 160 C120 160, 100 180, 100 200 L200 200 C200 180, 180 160, 150 160 Z" fill="#2D3748"/>
+  
+  <!-- Academic Elements -->
+  <rect x="120" y="90" width="60" height="40" rx="5" fill="#4A5568" opacity="0.8"/>
+  <text x="150" y="115" text-anchor="middle" fill="white" font-size="12" font-family="Arial">أستاذ</text>
+  
+  <!-- Book Icon -->
+  <rect x="80" y="220" width="20" height="15" fill="#E53E3E" rx="2"/>
+  <rect x="82" y="222" width="16" height="11" fill="white" rx="1"/>
+  <line x1="85" y1="225" x2="95" y2="225" stroke="#E53E3E" stroke-width="1"/>
+  <line x1="85" y1="228" x2="95" y2="228" stroke="#E53E3E" stroke-width="1"/>
+  
+  <!-- Pen Icon -->
+  <line x1="200" y1="220" x2="215" y2="235" stroke="#3182CE" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="217" cy="237" r="2" fill="#3182CE"/>
+  
+  <!-- Star Icons -->
+  <polygon points="70,80 72,86 78,86 73,90 75,96 70,92 65,96 67,90 62,86 68,86" fill="#F6E05E"/>
+  <polygon points="230,80 232,86 238,86 233,90 235,96 230,92 225,96 227,90 222,86 228,86" fill="#F6E05E"/>
+  
+  <!-- Graduation Cap -->
+  <rect x="135" y="70" width="30" height="8" fill="#2D3748" rx="4"/>
+  <polygon points="140,70 160,70 155,65 145,65" fill="#2D3748"/>
+  <circle cx="165" cy="74" r="2" fill="#E53E3E"/>
+  
+  <!-- Arabic Calligraphy Elements -->
+  <path d="M50 150 Q70 140, 90 150 Q70 160, 50 150" fill="#38A169" opacity="0.6"/>
+  <path d="M210 150 Q230 140, 250 150 Q230 160, 210 150" fill="#38A169" opacity="0.6"/>
+  
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667EEA;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#764BA2;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F093FB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5576C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
